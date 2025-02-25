@@ -4,7 +4,7 @@
 
 ## 2.1.-Taxonomía de incidentes
 Un incidente de ciberseguridad es un evento no planificado que puede comprometer la seguridad de la información y puede afectar a la integridad, confidencialidad y disponibilidad de los datos.
-Fases de un incidente:
+**Fases** de un incidente:
 1. Preparación.
 2. Identificación.
 3. Contención.
@@ -86,7 +86,7 @@ Clasificación definida en la ***Guía Nacional de Notificación y Gestión de C
     - Incidentes relacionados con infraestructuras críticas.
     - Otros.
 
-Otros factores a tener en cuenta:
+Otros **factores** a tener en cuenta:
 + **Grado de gravedad/peligrosidad**: Determina la amenaza que supondría en los sistemas que un incidente ocurriera (1->Bajo, 2->Medio, 3->Alto, 4->Muy alto, 5->Crítico).
 + **Impacto/alcance del incidente**: Las consecuencias que puede tener en la organización que se produzca un incidente (Bajo, Medio, Alto, Muy alto, Crítico).
 + **Prioridad**: Se basa en las 2 anteriores. (Emergencia, Alta, Normal, Baja).
@@ -101,21 +101,19 @@ Términos:
 + **CIRT (Computer Incident Response Team)**: Similar al CERT, pero centrado en la gestión de incidentes de seguridad específicos, con un enfoque en la contención y erradicación.
 + **CSIRT (Computer Security Incident Response Team)**: Variante más amplia del CIRT, que incluye una visión más estratégica y alineada con las políticas de seguridad.
 
-Objetivos de un SOC:
-
+**Objetivos** de un SOC:
 1. Prevención.
 2. Detección.
 3. Respuesta.
 4. Recuperación.
 
 Los SOC son completamente necesarios a día de hoy debido a la creciente cantidad de amenazas que existen además de que protegen la continuidad del negocio y permite a las empresas operar en entornos digitales de forma segura. Algunos **beneficios** de tener un SOC:
-
 + Preotección proactiva.
 + Respuesta rápida.
 + Cumplimiento normativo.
 + Confianza del cliente.
 
-Componentes de un SOC:
+**Componentes** de un SOC:
 + **Servicios**: Son el resultado del trabajo conjunto de personas, procesos y teconologías. Servicios principales:
     - **Threat Intelligence**: se encarga de recopilar y analizar información sobre amenazas externas.
     - **SIEM Intelligence y alerting**: utiliza los datos proporcionados por Threat Intelligence y registros internos para detectar patrones sospechosos en tiempo real.
@@ -141,12 +139,12 @@ Componentes de un SOC:
     - Ingenieros de seguridad.
 + **Negocio**
 
-Tipos de estructuras de un SOC:
+**Tipos** de estructuras de un SOC:
 + **Organización interna**: Un SOC interno es construido, administrado y operado por la propia organización.
 + **SOC tercerizado**: Es operado por un proveedor externo que ofrece servicios de seguridad gestionados.
 + **Modelos híbridos**: Ciertas funciones del SOC son internas y otras son tercerizadas.
 
-Fases de implementación de un SOC:
+**Fases** de implementación de un SOC:
 + Negocio --> Definición de objetivos.
 + Personas --> Selección de roles.
 + Procesos --> Definición de flujos de trabajo.
